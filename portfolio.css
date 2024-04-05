@@ -1,0 +1,331 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    transition: 1s
+
+
+  
+}
+
+body {
+    font-family: "poppins", sans-serif;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+
+    width: 100%;
+    font-weight: bold;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15)
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+    margin-right: 120px;
+    margin-left: 120px;
+
+
+
+}
+ 
+#home{
+    scroll-margin-top: 80px;
+    
+
+}
+#about{
+    scroll-margin-top: 100px;
+}#skills{
+    scroll-margin-top: 90px;
+}#work{
+    scroll-margin-top: 90px;
+}#contact{
+    scroll-margin-top: 90px;
+}
+
+.nav_links {
+    width: 40%;
+
+}
+
+.nav_links ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.home_title-color {
+    color: #3e6ff4;
+}
+
+svg{
+    margin-top: 80px;
+    
+    height: 25rem;
+}
+.home__blob {
+    fill: #3e6ff4;
+  }
+.home_title {
+
+    margin-top: 80px;
+    font-size: 2.2rem
+    
+
+}
+
+.profile_img {
+    margin-top: 100px;
+ 
+    background-color: #3e6ff4;
+}
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+   
+    height: 34.5rem;
+   
+
+}
+
+/* home ends  */
+
+.about {
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 20px;
+   
+    height: 15rem;
+    margin-bottom: 10rem;
+
+}
+
+.aboutheading {
+    display: flex;
+    align-items: center;
+}
+
+.about2 {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    column-gap: 5rem;
+}
+
+.image2 {
+
+    width: 50rem;
+    height: 20rem;
+    margin-bottom: 1rem;
+    
+
+  
+}
+.image2 img{
+    border-radius: 1rem;
+}
+/* about ends  */
+.pic img{
+    margin-right: 5rem;
+    height: 20rem;
+    border-radius: 1rem;
+    width: 30rem;
+
+    
+    
+    
+}
+.skill {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    
+    margin-top: 3rem;
+}
+
+
+.totalimg {
+    display: flex;
+    background-color: blue;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+    transition: 1s;
+}
+.container img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+    
+    
+}
+#img1 {
+    border-radius: 1rem;
+
+}
+
+#img2 {
+    border-radius: 1rem;
+
+}
+
+#img3 {
+    border-radius: 1rem;
+
+}
+
+#img4 {
+    border-radius: 1rem;
+
+}
+
+#img5 {
+    border-radius: 1rem;
+
+}
+
+#img6 {
+    border-radius: 1rem;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.section_title {
+    text-align: center;
+    text-decoration: underline;
+    color: #3e6ff4;
+    font-weight: 900;
+}
+
+button {
+    display: inline-block;
+    border: 0px;
+    background-color: #527ef6;
+    color: white;
+    padding: 0.75rem 2.5rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    transition: 0.3s
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.downbutton {
+    border: 0px;
+    background-color: #527ef6;
+    color: white;
+    margin-left: 120px;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    transition: 0.3s
+}
+
+.Contactcolor {
+    color: #fff;
+}
+
+.footer {
+    color: white;
+    height: 13rem;
+    background-color: hsl(224, 56%, 12%);
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.footer_title {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.social_icons {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.social_links {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+
+}
+
+.fa {
+    padding: 20px;
+    margin: 5px
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-linkedin {
+    color: black;
+}
+
+.fa-behance {
+    color: black;
+}
+
+
+input {
+    border-radius: 5px;
+    height: 2rem;
+    width: 20rem;
+    border: 1.5px solid black;
+
+}
+
+textarea {
+    border-radius: 5px;
+    border: 1.5px solid black;
+    width: 20rem;
+}
+
