@@ -14,7 +14,12 @@ body {
 
 header {
     position: sticky;
-    top: 0;
+    z-index: 10;
+    top: 0
+}
+.fade-down{
+    position: relative;
+    z-index: 1;
 }
 
 nav {
